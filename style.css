@@ -1,0 +1,122 @@
+/* My fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+}
+
+.nav-item {
+  color: #390977;
+}
+
+/* Main website */
+.owner {
+  margin-top: 12rem;
+  text-align: center;
+}
+
+.picture {
+  width: 350px;
+  height: 350px;
+  margin-top: 8rem;
+}
+
+.profile {
+  text-align: center;
+}
+
+/* about me */
+.mt {
+  margin-top: 1rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Card Services */
+
+/* section */
+section {
+  padding-top: 5rem;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px 10px;
+  background-color: #390977;
+  color: white;
+}
+
+.footer .col {
+  margin-bottom: 10px;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.link-footer:hover {
+  color: white;
+  opacity: 1;
+}
+
+.icon-footer {
+  display: block;
+  text-align: center;
+}
+
+/* utilities */
+.h2 {
+  color: #390977;
+}
+
+.h2::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #390977;
+  width: 30px;
+  margin: auto;
+}
+
+.tombol {
+  border-radius: 25px;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #390977;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -2px;
+  }
+
+  .owner {
+    text-align: right;
+  }
+
+  .profile {
+    text-align: left;
+  }
+
+  .icon-footer {
+    text-align: right;
+  }
+}
