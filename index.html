@@ -11,6 +11,9 @@
     <!-- Iconscout -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
+    <!-- AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Website | Dylan</title>
@@ -19,7 +22,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-brand" href="#">Dylan</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,8 +58,8 @@
           </div>
           <div class="col owner">
             <h1>Hello</h1>
-            <h2>I'm Tubagus Dylan Rachmat</h2>
-            <p>Electrical Engineering Students</p>
+            <h2>I'm Dylan</h2>
+            <p>Students | Video Editor</p>
             <button type="button" class="btn btn-outline-primary tombol">Contact</button>
           </div>
         </div>
@@ -66,13 +69,15 @@
 
     <!-- About Me -->
     <section id="About" class="mt mb-5">
-      <h1 class="h2 text-center">About</h1>
-      <div class="container text-center">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum rerum dicta deleniti odit, modi, odio libero dolorum ab ipsum ea ut? Voluptas temporibus aut iure necessitatibus cum vitae doloremque. Lorem ipsum dolor
-          sit, amet consectetur adipisicing elit. Minus unde nulla eos tempore corrupti facilis totam est laudantium facere quam excepturi nemo omnis nesciunt iure laboriosam cupiditate ducimus, explicabo beatae. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Cumque sed ab aliquid eos? Alias facere, ipsum blanditiis sapiente doloribus molestiae optio dolores mollitia, officiis aliquam dolorum ullam modi reiciendis corrupti?
-        </p>
+      <div class="container">
+        <h1 class="h2 text-center">About</h1>
+        <div class="text-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum rerum dicta deleniti odit, modi, odio libero dolorum ab ipsum ea ut? Voluptas temporibus aut iure necessitatibus cum vitae doloremque. Lorem ipsum
+            dolor sit, amet consectetur adipisicing elit. Minus unde nulla eos tempore corrupti facilis totam est laudantium facere quam excepturi nemo omnis nesciunt iure laboriosam cupiditate ducimus, explicabo beatae. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Cumque sed ab aliquid eos? Alias facere, ipsum blanditiis sapiente doloribus molestiae optio dolores mollitia, officiis aliquam dolorum ullam modi reiciendis corrupti?
+          </p>
+        </div>
       </div>
     </section>
     <!-- Akhir About Me -->
@@ -190,7 +195,7 @@
                 <label for="deskripsi" class="form-label">Message</label>
                 <textarea class="form-control" id="deskripsi" rows="3" name="message"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary tombol btn-kirim">Send Message</button>
+              <button type="submit" class="btn btn-primary tombol btn-kirim">Send</button>
               <button class="btn btn-primary tombol btn-loading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 Loading...
@@ -211,21 +216,24 @@
           </div>
           <div class="col">
             <a class="link-footer" href="#Contact">Contact</a>
-            <a class="link-footer" href="#">Portfolio</a>
+            <a class="link-footer dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Video Editing</a></li>
+            </ul>
             <a class="link-footer" href="#Services">Services</a>
           </div>
           <div class="col">
             <a class="icon-footer link-footer" href="https://instagram.com/tubagusdylan">
-              tubagusdylan
               <i class="uil uil-instagram"></i>
             </a>
             <a class="icon-footer link-footer" href="#">
-              tubagusdylan
               <i class="uil uil-linkedin"></i>
             </a>
             <a class="icon-footer link-footer" href="#">
-              tubagus.dylanr@gmail.com
               <i class="uil uil-envelope"></i>
+            </a>
+            <a class="icon-footer link-footer" href="https://github.com/tubagusdylan">
+              <i class="uil uil-github"></i>
             </a>
           </div>
         </div>
@@ -235,6 +243,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
+    <!-- My-javascript -->
     <script src="script.js"></script>
   </body>
 </html>

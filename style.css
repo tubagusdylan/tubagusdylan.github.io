@@ -1,5 +1,6 @@
 /* My fonts */
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
 
 body {
   font-family: "Rubik", sans-serif;
@@ -12,6 +13,11 @@ body {
 
 .nav-item {
   color: #390977;
+}
+
+.navbar-brand {
+  font-family: "Merienda", cursive;
+  font-size: 30px;
 }
 
 /* Main website */
@@ -73,7 +79,6 @@ section {
 }
 
 .icon-footer {
-  display: block;
   text-align: center;
 }
 
